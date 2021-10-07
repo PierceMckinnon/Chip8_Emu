@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/Chip8.dir/Src/main.cpp.o CMakeFiles/Chip8.dir/Src/chip8.cpp.o  -o Chip8  -lSDL2 

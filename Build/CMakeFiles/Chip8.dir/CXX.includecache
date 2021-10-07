@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/coiland/Documents/Emulator/chip8/Chip-8-Emu/Core/Inc/chip8.h
+array
+-
+cstdint
+-
+cstdlib
+-
+fstream
+-
+iostream
+-
+
+/home/coiland/Documents/Emulator/chip8/Chip-8-Emu/Core/Src/main.cpp
+chip8.h
+/home/coiland/Documents/Emulator/chip8/Chip-8-Emu/Core/Src/chip8.h
+SDL2/SDL.h
+-
+chrono
+-
+thread
+-
+
